@@ -1,0 +1,189 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: large;
+}
+header{
+    display: flex;
+    background-color:#87933f;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+}
+.divTitulo{
+    flex: 80%;
+}
+nav{
+    background-color:#009971;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+nav a{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 15px;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: white;
+    color: #bca875;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+aside{
+    flex: 30%;
+    background-color:#bca875;
+    padding: 10px;
+    text-align: center;
+}
+section{
+    flex: 70%;
+    background-color: #edc951;
+    padding: 20px;
+}
+article{
+    margin-bottom: 35px;
+}
+article p{
+    text-align: justify;
+}
+footer{
+    background-color: red;
+    text-align: center;
+    padding: 20px;
+}
+@media screen and (max-width:700px){
+nav{
+    flex-flow: column;
+}
+}
+.articulo-tarjeta{
+display: flex; 
+flex-wrap: wrap;  
+flex-direction: row;
+justify-content: center;
+}
+.tarjeta{
+border: 1px solid snow ; 
+width: 250px; 
+border-radius: 5px;
+box-shadow: #009971 1px 1px 10px;
+margin: 15px;
+}
+.tarjeta img{
+    width: 150px;
+    height: 180px;
+}
+.titulo-tarjeta{
+text-align: center;
+font-weight: 800;
+padding-bottom: 20px;
+border-bottom: 1px solid skyblue;
+background-color: indigo;
+color: beige;
+font-size: 20px;
+}
+.tarjeta div{
+    padding: 15px;    
+}
+.descripcion{
+    text-align: center;
+}
+.Precio{
+    text-align: center;
+}
+.cuerpo-tarjeta{
+    text-align: center;
+    
+}
+.Precio{
+text-align: center;
+}
+.tarjeta button{
+    background-color: #ff0000;
+    border: none;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 26px;
+    border-radius: 10px;
+    display: inline-block;
+    cursor: pointer;
+    
+}
+.tarjeta button:hover{
+background-color: rgb(124, 161, 161);
+}
+.Pie-tarjeta{
+    text-align:center;
+}
+.container{
+    display:flex; 
+    justify-content:center; 
+
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 2px;
+    
+    }
+h1{
+    text-align: center;
+    background-color: #aaff0b; 
+}
+form {
+    max-width: 200px;
+    margin: auto;
+    background-color: #aaff0b;
+    
+    }
+    label {
+    display: block;
+    margin-top: 10px;
+    }
+    input[type="text"],
+    input[type="date"],
+    input[type="email"],
+    input[type="number"],
+    select {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    }
+    input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    }
+    input[type="submit"]:hover {
+    background-color: #45a049;
+    }
+    .form button{
+        background-color: #ff0000;
+        border: none;
+        color: white;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 26px;
+        border-radius: 10px;
+        display: inline-block;
+        cursor: pointer; 
+    }
+
+
